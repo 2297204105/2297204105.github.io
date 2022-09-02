@@ -1,0 +1,15 @@
+
+/* 颜色变量 */
+:root{
+    --bg-color: #fff;
+    --font-color-normal: #ef6034;
+    --header-color: #fff;
+    --main-color: #afe0ff;
+}
+/* 夜间模式颜色变量 */
+@media (prefers-color-scheme: dark) {
+    :root{
+        --font-color-normal: #eee;
+        --header-color: #000;
+    }
+}
